@@ -1,0 +1,19 @@
+# -*- coding: utf-8 -*-
+{
+    'name': 'Sales receipt',
+    'summary':"""This module create a summary of the sales report""",
+    'depends': ['sale'],
+    'version': '14.0.0.1.0',
+    'category': 'sale',
+    'author':'SARL FOCUS SYSTEM.',
+    'maintainer': 'SARL FOCUS SYSTEM.',
+    'contributors':['contact <contact@focussystem.dz>'],
+    'website':'http://www.focussystem.dz',
+    'data':[        
+        'report/sales_receipt.xml',
+        'report/report_Commande.xml'
+    ],
+    'installable': True,
+    'auto_install': False,
+    'application':True,
+}
