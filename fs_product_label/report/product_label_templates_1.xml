@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <template id="label_35x25">
+        <t t-call="web.html_container">
+            <t t-call="web.basic_layout">
+                <t t-foreach="docs" t-as="doc">
+                    <table class="table table-borderless col-xs-4">
+                        <tr style="border:0;margin:0;padding:0;">
+                            <td class="col-xs-4 text-center" style="border:0;margin:0;padding:0;">
+                                <div style="overflow:hidden; height:50px !important; width: 90% !important; padding: 5px 5px; font-size: 12px; line-height: 1.3; margin-right: 5px; margin-left: 5px;margin-top:5px;">
+                                    <span t-field="doc.name"/>
+                                    
+                                </div>
+
+                                <div t-if="doc.default_code" style="width: 100%; padding: 0; margin: 0; font-size: 10px;; font-weight: bold;">
+                                    <span t-field="doc.default_code"/>
+                                </div>
+                                <img t-if="doc.barcode" t-att-src="'/report/barcode/?type=%s&amp;value=%s&amp;width=%s&amp;height=%s' % ('EAN13', doc.barcode, 600, 100)" style="width:100%;height:13%;padding:3px 3px;"/>
+                                <div style="font-size: 10px; font-weight: bold;"><span t-field="doc.barcode"/></div>
+                            </td>
+                        </tr>
+                    </table>
+                </t>
+            </t>
+        </t>
+    </template>
+</odoo>
