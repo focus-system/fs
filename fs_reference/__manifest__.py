@@ -12,6 +12,7 @@
     'data': [
         'views/contact_views_inherit.xml',
     ],
+    'license': 'AGPL-3',
     'installable': True,
     'auto_install': False,
     'application':True,
