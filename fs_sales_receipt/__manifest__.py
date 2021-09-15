@@ -13,6 +13,7 @@
         'report/sales_receipt.xml',
         'report/report_Commande.xml'
     ],
+    'license': 'AGPL-3',
     'installable': True,
     'auto_install': False,
     'application':True,
