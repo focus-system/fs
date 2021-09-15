@@ -14,7 +14,7 @@
         'views/account_payment_view_inherit.xml',
     ],
     'license': 'AGPL-3',
-    'price': 30,
+    'price': 30.00,
     'currency': 'USD',
     'installable': True,
     'auto_install': False,
