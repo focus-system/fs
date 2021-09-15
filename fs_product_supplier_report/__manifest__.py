@@ -13,6 +13,7 @@
         'views/menu.xml',
         'views/porduct_supplier_view.xml'
     ],
+    'license': 'AGPL-3',
     'installable': True,
     'auto_install': False,
 }
