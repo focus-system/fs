@@ -60,7 +60,7 @@
     'test': [],
     'demo': [],
     'license': 'AGPL-3',
-    'price': 30,
+    'price': 30.00,
     'currency': 'USD',
     'installable': True,
     'active': False,
