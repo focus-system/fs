@@ -17,7 +17,7 @@
         'report/product_label_reports.xml',
     ],
     'license': 'AGPL-3',
-    'price': 10,
+    'price': 10.00,
     'currency': 'USD',
     'installable': True,
     'auto_install': False,
