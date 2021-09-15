@@ -13,6 +13,9 @@
         'views/product_template_views_inherit.xml',
         'security/ir.model.access.csv'
     ],
+    'license': 'AGPL-3',
+    'price': 30,
+    'currency': 'USD',
     'installable': True,
     'auto_install': False,
     'application':True,
