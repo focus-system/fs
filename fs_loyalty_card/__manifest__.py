@@ -1,12 +1,7 @@
 # -*- coding: utf-8 -*-
-##############################################################################
-#
-# OdooBro - odoobro.contact@gmail.com
-#
-##############################################################################
 
 {
-    'name': 'Carte de fidélité',
+    'name': 'loyalty card',
     'version': '14.0.0.1.0',
     'category': 'sale',
     'author':'SARL FOCUS SYSTEM.',
