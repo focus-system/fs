@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+		<record id="action_card_type" model="ir.actions.act_window">
+			<field name="name">Card type</field>
+			<field name="res_model">card.type</field>
+			<field name="view_mode">tree,form</field>
+		</record>
+		<record id="action_card_period" model="ir.actions.act_window">
+			<field name="name">Card period</field>
+			<field name="res_model">card.period</field>
+			<field name="view_mode">tree,form</field>
+		</record>
+		<record id="action_card_category" model="ir.actions.act_window">
+			<field name="name">Card category</field>
+			<field name="res_model">card.category</field>
+			<field name="view_mode">tree,form</field>
+		</record>
+		<record id="action_card_card" model="ir.actions.act_window">
+			<field name="name">Card</field>
+			<field name="res_model">card.card</field>
+			<field name="view_mode">tree,form</field>
+		</record>
+
+		<menuitem id="menu_sales_config_loyalty" parent="sale.menu_sale_config" 
+			name="Fidélité" sequence="20" />
+		<menuitem id="menu_sale_loyalty_category" parent="menu_sales_config_loyalty"
+			action="action_card_category" sequence="21" />
+		<menuitem id="menu_sale_loyalty_period" parent="menu_sales_config_loyalty"
+			action="action_card_period" sequence="22" />
+		<menuitem id="menu_sale_loyalty_type" parent="menu_sales_config_loyalty"
+			action="action_card_type" sequence="23" />
+		<menuitem id="menu_sale_loyalty_card" parent="menu_sales_config_loyalty"
+			action="action_card_card" sequence="24" />	
+
+</odoo>
