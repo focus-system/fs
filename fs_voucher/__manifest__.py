@@ -20,4 +20,5 @@
     'installable': True,
     'auto_install': False,
     'application':True,
+    'images': ['static/description/poster_image.png'],
 }
