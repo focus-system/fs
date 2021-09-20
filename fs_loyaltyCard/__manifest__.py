@@ -32,4 +32,5 @@
     'installable': True,
     'active': False,
     'application': True,
+    'images': ['static/description/poster_image.png'],
 }
