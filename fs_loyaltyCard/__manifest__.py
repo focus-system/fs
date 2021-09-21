@@ -8,7 +8,7 @@
     'maintainer': 'SARL FOCUS SYSTEM.',
     'contributors':['contact <contact@focussystem.dz>'],
     'website': 'http://www.focussystem.dz',
-    'depends': ['sale','account'],
+    'depends': ['sale_management','account'],
     'data': [
         'security/res_groups_data.xml',
         'security/ir_rule_data.xml',
