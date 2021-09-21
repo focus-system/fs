@@ -9,7 +9,7 @@
     'maintainer': 'SARL FOCUS SYSTEM.',
     'contributors':['contact <contact@focussystem.dz>'],
     'website':'http://www.focussystem.dz',
-    'depends': ['sale','purchase'],
+    'depends': ['sale_management','purchase'],
     'data': [
         'views/sale_views_inherit.xml',
         'views/purchase_views_inherit.xml',
