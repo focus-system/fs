@@ -2,12 +2,12 @@ from odoo import api, fields, models
 class ProductSupplier(models.Model):
     _name='product.supplier'
 
-    product=fields.Many2one('product.template',string='Produit')
-    qte_stock=fields.Float(string='Quantité en stock')
-    fournisseur=fields.Many2one('res.partner',string='Fournisseur')
-    qte_achete=fields.Float(string='Quantité achetée')
-    date=fields.Date(string='Date de facturation')
-    price_unit=fields.Float(string='Prix unitaire')
+    product=fields.Many2one('product.template',string='Product')
+    qte_stock=fields.Float(string='Quantity in stock')
+    fournisseur=fields.Many2one('res.partner',string='Supplier')
+    qte_achete=fields.Float(string='Quantity purchased')
+    date=fields.Date(string='Billing date')
+    price_unit=fields.Float(string='Unit price')
 
 class MoveInheritReport(models.Model):
 	_inherit='account.move'

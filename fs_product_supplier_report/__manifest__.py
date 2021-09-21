@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 {
-    'name': 'Product supplier report',
-    'depends': ['product','purchase'],
+    'name': 'Product supplier report',    
+    'summary':"""This module displays a list that summarizes the purchases of each supplier by product""",
+    'depends': ['product','purchase','stock'],
     'version': '14.0.0.1.0',
     'author':'SARL FOCUS SYSTEM.',
     'maintainer': 'SARL FOCUS SYSTEM.',
