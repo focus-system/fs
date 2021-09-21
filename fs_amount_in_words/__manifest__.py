@@ -16,7 +16,6 @@
     'name': 'Amount In Words',
     'summary': 'Application to display amount in word and print in report',
     'version': '14.0.0.1.0',
-    'category': 'sale',
     'author':'SARL FOCUS SYSTEM.',
     'maintainer': 'SARL FOCUS SYSTEM.',
     'contributors':['contact <contact@focussystem.dz>'],
