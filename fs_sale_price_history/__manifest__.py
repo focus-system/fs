@@ -4,7 +4,6 @@
     'summary':"""This module allows you to add the sale price history""",
     'depends': ['product','sale_management'],
     'version': '14.0.0.1.0',
-    'category': ['product','sale']
     'author':'SARL FOCUS SYSTEM.',
     'maintainer': 'SARL FOCUS SYSTEM.',
     'contributors':['contact <contact@focussystem.dz>'],
