@@ -17,7 +17,7 @@
         <field name="name">Ref Four</field>
         <field name="code">ref.four</field>
         <field name="active">TRUE</field>
-        <field name="prefix">S</field>
+        <field name="prefix">V</field>
         <field name="padding">7</field>
         <field name="number_next">1</field>
         <field name="number_increment">1</field>
