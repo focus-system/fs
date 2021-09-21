@@ -3,7 +3,6 @@
     'name': 'Product supplier report',
     'depends': ['product','purchase'],
     'version': '14.0.0.1.0',
-    'category': 'product',
     'author':'SARL FOCUS SYSTEM.',
     'maintainer': 'SARL FOCUS SYSTEM.',
     'contributors':['contact <contact@focussystem.dz>'],
