@@ -5,12 +5,11 @@
     'name': 'Voucher',
     'summary':"""This module allows the management of vouchers""",
     'version': '14.0.0.1.0',
-    'category': 'sale',
     'author':'SARL FOCUS SYSTEM.',
     'maintainer': 'SARL FOCUS SYSTEM.',
     'contributors':['contact <contact@focussystem.dz>'],
     'website':'http://www.focussystem.dz',
-    'depends': ['account', 'sale'],
+    'depends': ['account', 'sale_management'],
     'data': [
         'views/sale_views_inherit.xml'
     ],
