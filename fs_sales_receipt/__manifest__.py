@@ -2,7 +2,7 @@
 {
     'name': 'Sales receipt',
     'summary':"""This module create a summary of the sales report""",
-    'depends': ['sale'],
+    'depends': ['sale_management'],
     'version': '14.0.0.1.0',
     'category': 'sale',
     'author':'SARL FOCUS SYSTEM.',
