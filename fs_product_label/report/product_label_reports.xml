@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <record id="paperformat_57x35mm" model="report.paperformat">
+        <field name="name">paper 57x35mm</field>
+        <field name="default" eval="True"/>
+        <field name="format">custom</field>
+        <field name="page_height">35</field>
+        <field name="page_width">57</field>
+        <field name="orientation">Portrait</field>
+        <field name="margin_top">0</field>
+        <field name="margin_bottom">0</field>
+        <field name="margin_left">1</field>
+        <field name="margin_right">1</field>
+        <field name="header_line" eval="False"/>
+        <field name="header_spacing">0</field>
+        <field name="dpi">90</field>
+    </record>
+    <record id="paperformat_35x25mm" model="report.paperformat">
+        <field name="name">paper 35x25mm</field>
+        <field name="default" eval="True"/>
+        <field name="format">custom</field>
+        <field name="page_height">25</field>
+        <field name="page_width">35</field>
+        <field name="orientation">Portrait</field>
+        <field name="margin_top">0</field>
+        <field name="margin_bottom">0</field>
+        <field name="margin_left">1</field>
+        <field name="margin_right">1</field>
+        <field name="header_line" eval="False"/>
+        <field name="header_spacing">0</field>
+        <field name="dpi">90</field>
+    </record>
+
+    <record id="report_product_label_A4_57x35" model="ir.actions.report">
+        <field name="name">Product labels 57x35mm</field>
+        <field name="model">product.template</field>
+        <field name="report_type">qweb-pdf</field>
+        <field name="paperformat_id" ref="product_label.paperformat_57x35mm"/>
+        <field name="report_name">product_label.label_57x35</field>
+        <field name="report_file">product_label.label_57x35</field>
+        <field name="print_report_name">('Code-barre 57x35mm')</field>
+    </record>
+    <record id="report_product_label_A4_35x25" model="ir.actions.report">
+        <field name="name">Product labels 35x25mm</field>
+        <field name="model">product.template</field>
+        <field name="report_type">qweb-pdf</field>
+        <field name="paperformat_id" ref="product_label.paperformat_35x25mm"/>
+        <field name="report_name">product_label.label_35x25</field>
+        <field name="report_file">product_label.label_35x25</field>
+        <field name="print_report_name">('Code-barre 35x25mm')</field>
+    </record>
+</odoo>

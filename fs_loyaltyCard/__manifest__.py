@@ -1,0 +1,36 @@
+# -*- coding: utf-8 -*-
+
+{
+    'name': 'loyalty card',
+    'version': '14.0.0.1.0',
+    'category': 'sale',
+    'author':'SARL FOCUS SYSTEM.',
+    'maintainer': 'SARL FOCUS SYSTEM.',
+    'contributors':['contact <contact@focussystem.dz>'],
+    'website': 'http://www.focussystem.dz',
+    'depends': ['sale_management','account'],
+    'data': [
+        'security/res_groups_data.xml',
+        'security/ir_rule_data.xml',
+        'security/ir.model.access.csv',
+        'data/ir_sequence_data.xml',
+        'data/card_stage_data.xml',
+        'views/card_period_view.xml',
+        'views/card_category_view.xml',
+        'views/card_type_view.xml',
+        'views/card_card_view.xml',
+        'views/sale_order_view.xml',
+        'menu/card_menu.xml',
+        'data/update_function_data.xml',
+    ],
+
+    'test': [],
+    'demo': [],
+    'license': 'AGPL-3',
+    'price': 30.00,
+    'currency': 'USD',
+    'installable': True,
+    'active': False,
+    'application': True,
+    'images': ['static/description/poster_image.png'],
+}
